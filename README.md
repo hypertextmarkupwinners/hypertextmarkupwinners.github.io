@@ -1,2 +1,2 @@
-# hypertextmarkupwinners.github.io
-Live site location
+# ITMD362Project2
+Development files for Project 2
