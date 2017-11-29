@@ -35,9 +35,30 @@ button {
     cursor: pointer;
     width: 200px;
 	font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
 
 }
-[type="submit"]{
+
+a {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+	margin-left: auto;
+	margin-right: auto;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+	width: inherit;
+	margin-top: 4%;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 6px;
+    
+}
+
+.submit{
 	margin-left: center;
 	margin-right: auto;
 	width: inherit;
@@ -47,6 +68,10 @@ button {
 }
 
 button:hover {
+    opacity: 0.8;
+}
+
+a:hover {
     opacity: 0.8;
 }
 
