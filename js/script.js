@@ -7,11 +7,6 @@ function semsel(value) {
     $('.classes').show();
 }
 
-function navbarScale() {
-    var topbar = document.getElementById("topnavbar");
-    if (topbar.className === "topnav") {
-        topbar.className += " responsive";
-    } else {
-        topbar.className = "topnav";
-    }
+function addCourse() {
+    alert("Class successfully added");
 }
